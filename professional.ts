@@ -18,6 +18,7 @@ export class Professional{
         this.profession = profession;
     }
     printAtributos():void{
-            console.log(this)
+        console.log(this.name+'\n'+this.age+'\n'+this.weight+'\n'+this.height+'\n'+this.isRetired+'\n'+this.nationality+'\n'+this.oscarsNumber+'\n'+this.profession+'\n')
+    
     }
 }
