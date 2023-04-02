@@ -23,3 +23,6 @@ let arrMovie = [movie1, movie2]
 
 let imdb = new Imdb(arrMovie)
 imdb.printImdb()
+
+let myJson = JSON.stringify(imdb)
+console.log(myJson)
